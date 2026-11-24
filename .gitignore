@@ -1,0 +1,28 @@
+## .NET / C# gitignore
+
+# Build output
+bin/
+obj/
+
+# Visual Studio artifacts
+.vs/
+*.suo
+*.user
+*.userosscache
+*.ntvs*
+*.njsproj
+*.sw?
+
+# NuGet
+*.nupkg
+*.snupkg
+**/packages/
+*.lock.json
+!packages.lock.json
+
+# SQLite runtime data
+data/
+
+# Log files
+logs/
+*.log
